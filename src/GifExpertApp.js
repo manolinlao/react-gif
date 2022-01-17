@@ -7,7 +7,7 @@ export const GifExpertApp = () => {
 
   const [ categories, setCategories ] = useState( [''] );
  
-  return (
+  return (    
     <div>
       <h2>PRUEBAS DE REACT</h2>
       <ExampleUseEffect/>

@@ -11,6 +11,7 @@ export const useFetchGifs = ( category ) => {
   );
 
   useEffect( () => {
+    console.log("USEEFFECT EN USEFETCHGIFS");
     getGifs( category )
       .then( imgs => {
         setState(
@@ -22,5 +23,6 @@ export const useFetchGifs = ( category ) => {
       })
   }, [ category ]);
 
+  console.log('returning state');
   return state; // { data: [], loading: true }
 }

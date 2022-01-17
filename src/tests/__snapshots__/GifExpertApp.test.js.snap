@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas <GifExpertApp> match con el snapshot 1`] = `
+<div>
+  <h2>
+    PRUEBAS DE REACT
+  </h2>
+  <ExampleUseEffect />
+  <hr />
+  <h2>
+    GifExpertApp
+  </h2>
+  <hr />
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <ol>
+    <GifGrid
+      category=""
+      key=""
+    />
+  </ol>
+</div>
+`;
+
+exports[`Pruebas <GifExpertApp> match con el snapshot 2`] = `
+<div>
+  <h2>
+    PRUEBAS DE REACT
+  </h2>
+  <ExampleUseEffect />
+  <hr />
+  <h2>
+    GifExpertApp
+  </h2>
+  <hr />
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <ol>
+    <GifGrid
+      category=""
+      key=""
+    />
+  </ol>
+</div>
+`;
+
+exports[`Pruebas <GifExpertApp> match con el snapshot y tenga 1 GifGrid 1`] = `
+<div>
+  <h2>
+    PRUEBAS DE REACT
+  </h2>
+  <ExampleUseEffect />
+  <hr />
+  <h2>
+    GifExpertApp
+  </h2>
+  <hr />
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <ol>
+    <GifGrid
+      category=""
+      key=""
+    />
+  </ol>
+</div>
+`;
